@@ -53,7 +53,7 @@ if __name__=='__main__':
     load_dotenv()
     CHROME_PROFILE = os.getenv('CHROME_PROFILE')
     EDGE_PROFILE = os.getenv('EDGE_PROFILE')
-    browser = os.getenv('browser')
+    BROWSER = os.getenv('BROWSER')
     
     
     if browser=='chrome':
